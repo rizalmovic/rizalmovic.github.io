@@ -9,8 +9,11 @@ $(function(){
             className = $(this).data('size');
 
         $.get(url, function(data){
+            var visibleModal = $('.modal:visible').length + 1;
+            var zIndex = visibleModal + 1040;
+
             var html = `
-                <div class="modal fade">
+                <div class="modal fade" style="z-index: ${zIndex}">
                     <div class="modal-dialog ${className}">
                         <div class="modal-content">
                             <div class="modal-header">
@@ -36,8 +39,10 @@ $(function(){
             var timeout = setInterval(function(){
                 if($('.modal').length) {
                     $('.modal').modal();
+                    $('.modal-backdrop').not('.modal-stack').css({ "z-index": zIndex - 1 }).addClass('modal-stack');
                     clearInterval(timeout);
                 }
+
             }, 100);
         });
     });

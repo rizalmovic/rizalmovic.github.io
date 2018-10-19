@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mitrais - Carrom Tournament</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.3/semantic.min.css">
+    <link rel="stylesheet" href="/assets/css/app.css">
+</head>
+<body>
+
+    <div class="pusher">
+        <h1 style="color: #fff">Mitrais Carrom Tournament - Season 1</h1>
+
+
+        <div class="ui segment">
+            <div class="ui top attached tabular menu">
+                <div class="item active" data-tab="standings">Standings</div>
+                <div class="item" data-tab="schedules">Schedules</div>
+                <div class="item" data-tab="players">Players</div>
+            </div>
+            <div class="ui bottom attached tab segment active" data-tab="standings"></div>
+            <div class="ui bottom attached tab segment" data-tab="schedules">
+                    <h3>Round 1</h3>
+                    <table class="ui celled table">
+                        <thead>
+                            <tr>
+                                <th>&nbsp;</th>
+                                <th>&nbsp;</th>
+                                <th>&nbsp;</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td data-label="Player">Kustian &dash; Habli</td>
+                                <td data-label="Vs" style="text-align:center">1 : 0</td>
+                                <td data-label="Player">Chandie &dash; Desta</td>
+                            </tr>
+                            <tr>
+                                <td data-label="Player">Nardi &dash; Alex</td>
+                                <td data-label="Vs" style="text-align:center">0: 1</td>
+                                <td data-label="Player">Teguh Iman &dash; Robby</td>
+                            </tr>
+                            <tr>
+                                <td data-label="Player">Wiena &dash; Gaby</td>
+                                <td data-label="Vs" style="text-align:center">vs</td>
+                                <td data-label="Player">Fajar &dash; Deta</td>
+                            </tr>
+                        </tbody>
+                    </table>
+            </div>
+            <div class="ui bottom attached tab segment" data-tab="players">
+                <div class="ui grid">
+                    <div class="row">
+                        <div class="eight wide column">
+                            <div id="players" class="ui list">
+    
+                            </div>
+                        </div>
+                        <div class="eight wide column">
+                            <div id="statistic"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.3/semantic.min.js"></script>
+<script src="//www.amcharts.com/lib/3/amcharts.js"></script>
+<script src="//www.amcharts.com/lib/3/radar.js"></script>
+<script src="//www.amcharts.com/lib/3/plugins/export/export.min.js"></script>
+<script src="//www.amcharts.com/lib/3/themes/light.js"></script>
+<script src="/assets/js/app.js"></script>
+</body>
+</html>

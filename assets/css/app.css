@@ -1,0 +1,15 @@
+body {
+    margin: 0 auto;
+    padding: 60px 0;
+    width: 960px;
+    background: #6200c0;
+}
+
+h1 {
+    margin-bottom: 40px;
+}
+
+#statistic {
+    width: 100%;
+    height: 500px;
+}		

@@ -1,0 +1,98 @@
+[
+	{
+		"NAME": "Alex",
+		"BACOT": "30",
+		"SKILL": "70",
+		"DEFENSE": "70",
+		"MENTAL": "70",
+		"TRICK": "70"
+	},
+	{
+		"NAME": "Candhie",
+		"BACOT": "65",
+		"SKILL": "85",
+		"DEFENSE": "70",
+		"MENTAL": "70",
+		"TRICK": "79"
+	},
+	{
+		"NAME": "Desta",
+		"BACOT": "80",
+		"SKILL": "85",
+		"DEFENSE": "65",
+		"MENTAL": "70",
+		"TRICK": "75"
+	},
+	{
+		"NAME": "Deta",
+		"BACOT": "75",
+		"SKILL": "80",
+		"DEFENSE": "55",
+		"MENTAL": "65",
+		"TRICK": "74"
+	},
+	{
+		"NAME": "Fajar",
+		"BACOT": "99",
+		"SKILL": "90",
+		"DEFENSE": "47",
+		"MENTAL": "86",
+		"TRICK": "80"
+	},
+	{
+		"NAME": "Gaby",
+		"BACOT": "30",
+		"SKILL": "75",
+		"DEFENSE": "60",
+		"MENTAL": "73",
+		"TRICK": "77"
+	},
+	{
+		"NAME": "Habli",
+		"BACOT": "35",
+		"SKILL": "85",
+		"DEFENSE": "50",
+		"MENTAL": "76",
+		"TRICK": "78"
+	},
+	{
+		"NAME": "Kustian",
+		"BACOT": "75",
+		"SKILL": "90",
+		"DEFENSE": "85",
+		"MENTAL": "90",
+		"TRICK": "90"
+	},
+	{
+		"NAME": "Nardi",
+		"BACOT": "65",
+		"SKILL": "86",
+		"DEFENSE": "88",
+		"MENTAL": "90",
+		"TRICK": "80"
+	},
+	{
+		"NAME": "Robby",
+		"BACOT": "60",
+		"SKILL": "80",
+		"DEFENSE": "77",
+		"MENTAL": "70",
+		"TRICK": "80"
+	},
+	{
+		"NAME": "Teguh Iman",
+		"BACOT": "40",
+		"SKILL": "92",
+		"DEFENSE": "84",
+		"MENTAL": "87",
+		"TRICK": "79"
+	},
+	{
+		"NAME": "Wiena",
+		"BACOT": "85",
+		"SKILL": "89",
+		"DEFENSE": "75",
+		"MENTAL": "80",
+		"TRICK": "75"
+	}
+]
